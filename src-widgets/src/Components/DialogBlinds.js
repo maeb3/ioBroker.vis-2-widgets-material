@@ -51,9 +51,11 @@ const styles = {
         zIndex: 11,
         width: '10em',
         // border: '1px solid #b5b5b5',
-        borderRadius: '2em',
+///     borderRadius: '2em',
+        borderRadius: '1em',
         overflow: 'hidden',
-        background: 'white',
+///     background: 'white',
+        background: 'orange',
         cursor: 'pointer',
         boxShadow:
             '0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12)',
@@ -349,14 +351,16 @@ class DialogBlinds extends Component {
             width: '100%',
             left: 0,
             height: `${this.props.type === DialogBlinds.types.blinds ? 100 - this.state.value : this.state.value}%`,
-            background: this.props.background || this.getSliderColor(),
+///         background: this.props.background || this.getSliderColor(),
+            background: #00ffff,
             transitionProperty: 'height',
             transitionDuration: '0.3s',
         };
 
         const handlerStyle = {
             position: 'absolute',
-            width: '2em',
+///         width: '2em',
+            width: '0em',
             height: '0.3em',
             left: 'calc(50% - 1em)',
             background: 'white',
@@ -365,7 +369,8 @@ class DialogBlinds extends Component {
 
         if (this.props.type === DialogBlinds.types.blinds) {
             sliderStyle.top = 0;
-            handlerStyle.bottom = '0.4em';
+///         handlerStyle.bottom = '0.4em';
+            handlerStyle.bottom = '4.4em';
             sliderStyle.backgroundImage =
              'linear-gradient(0deg, #949494 4.55%, #c9c9c9 4.55%, #c9c9c9 50%, #949494 50%, #949494 54.55%, #c9c9c9 54.55%, #c9c9c9 100%)';
                 'linear-gradient(0deg, #222222 4.55%, #888888 4.55%, #888888 50%, #222222 50%, #888888 54.55%, #888888 54.55%, #888888 100%)';
