@@ -4,17 +4,19 @@ import Generic from '../Generic';
 import DialogBlinds from './DialogBlinds';
 
 const styles = {
-    blindHandle: {
+    blindHandle: { /// Handle
         position: 'absolute',
         borderColor: '#a5aaad',
-        borderStyle: 'solid',
+///     borderStyle: 'solid',
+        borderStyle: 'none',
         background:
-            'linear-gradient(to bottom, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%)',
+///         'linear-gradient(to bottom, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%)',
+            'transparent',
     },
-    blindBlind: {
+    blindBlind: { /// Rollo-Latten
         backgroundImage:
-///         'linear-gradient(0deg, #949494 4.55%, #c9c9c9 4.55%, #c9c9c9 50%, #949494 50%, #949494 54.55%, #c9c9c9 54.55%, #c9c9c9 100%)',
-            'linear-gradient(0deg, #222222 4.55%, #888888 4.55%, #888888 50%, #222222 50%, #222222 54.55%, #888888 54.55%, #888888 100%)',
+            'linear-gradient(0deg, #949494 4.55%, #c9c9c9 4.55%, #c9c9c9 50%, #949494 50%, #949494 54.55%, #c9c9c9 54.55%, #c9c9c9 100%)',
+///         'linear-gradient(0deg, #222222 4.55%, #888888 4.55%, #888888 50%, #222222 50%, #222222 54.55%, #888888 54.55%, #888888 100%)',
         backgroundSize: '100% 20px',
         backgroundPosition: 'center bottom',
         width: '100%',
@@ -23,21 +25,22 @@ const styles = {
 ///     transitionDuration: '0.3s',
         transitionDuration: '0.1s',
     },
-    blindBlind1: {
+    blindBlind1: { /// hellgrauer Hintergrund
         height: '100%',
         boxSizing: 'border-box',
         borderStyle: 'solid',
         background: 'linear-gradient(45deg, rgba(173, 174, 178, 1) 0%, rgba(251, 251, 251, 1) 100%)',
     },
-    blindBlind2: {
+    blindBlind2: { /// ??? Rahmen ???
         position: 'relative',
         width: '100%',
         height: '100%',
         boxSizing: 'border-box',
-        borderStyle: 'solid',
+///     borderStyle: 'solid',
+        borderStyle: 'dotted',
         borderColor: 'rgba(0, 0, 0, 0)',
     },
-    blindBlind3: {
+    blindBlind3: { /// blauer Himmel
         position: 'relative',
         width: '100%',
         height: '100%',
@@ -45,9 +48,10 @@ const styles = {
 ///     background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 51, 135, 0.83) 100%)',
         background: 'linear-gradient(to bottom, rgba(90, 151, 255, 0.8) 0%, rgba(0, 51, 135, 0.83) 100%)',
     },
-    blindBlind4: {
+    blindBlind4: { /// Glasscheibe
         position: 'relative',
         width: '100%',
+///     width: '0%',
         height: '100%',
         boxSizing: 'border-box',
         borderStyle: 'solid',
