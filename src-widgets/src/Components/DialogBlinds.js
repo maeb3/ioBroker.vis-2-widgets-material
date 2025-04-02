@@ -62,7 +62,8 @@ const styles = {
     },
 };
 
-const LAMP_ON_COLOR = '#c7c70e';
+/// const LAMP_ON_COLOR = '#c7c70e';
+const LAMP_ON_COLOR = 'red';
 
 class DialogBlinds extends Component {
     // expected:
@@ -295,7 +296,8 @@ class DialogBlinds extends Component {
             return darken(LAMP_ON_COLOR, 1 - (val / 70 + 0.3));
         }
 
-        return '#888';
+///        return '#888';
+        return 'yellow';
     }
 
     getValueText() {
@@ -365,7 +367,8 @@ class DialogBlinds extends Component {
             sliderStyle.top = 0;
             handlerStyle.bottom = '0.4em';
             sliderStyle.backgroundImage =
-                'linear-gradient(0deg, #949494 4.55%, #c9c9c9 4.55%, #c9c9c9 50%, #949494 50%, #949494 54.55%, #c9c9c9 54.55%, #c9c9c9 100%)';
+///             'linear-gradient(0deg, #949494 4.55%, #c9c9c9 4.55%, #c9c9c9 50%, #949494 50%, #949494 54.55%, #c9c9c9 54.55%, #c9c9c9 100%)';
+                'linear-gradient(0deg, #222222 4.55%, #888888 4.55%, #888888 50%, #222222 50%, #888888 54.55%, #888888 54.55%, #888888 100%)';
             sliderStyle.backgroundSize = '100% 2.5em';
             sliderStyle.backgroundPosition = 'center bottom';
         } else {
