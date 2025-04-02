@@ -13,13 +13,15 @@ const styles = {
     },
     blindBlind: {
         backgroundImage:
-            'linear-gradient(0deg, #949494 4.55%, #c9c9c9 4.55%, #c9c9c9 50%, #949494 50%, #949494 54.55%, #c9c9c9 54.55%, #c9c9c9 100%)',
+///         'linear-gradient(0deg, #949494 4.55%, #c9c9c9 4.55%, #c9c9c9 50%, #949494 50%, #949494 54.55%, #c9c9c9 54.55%, #c9c9c9 100%)',
+            'linear-gradient(0deg, #222222 4.55%, #888888 4.55%, #888888 50%, #222222 50%, #222222 54.55%, #888888 54.55%, #888888 100%)',
         backgroundSize: '100% 20px',
         backgroundPosition: 'center bottom',
         width: '100%',
         position: 'absolute',
         transitionProperty: 'height',
-        transitionDuration: '0.3s',
+///     transitionDuration: '0.3s',
+        transitionDuration: '0.1s',
     },
     blindBlind1: {
         height: '100%',
@@ -40,7 +42,8 @@ const styles = {
         width: '100%',
         height: '100%',
         boxSizing: 'border-box',
-        background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 51, 135, 0.83) 100%)',
+///     background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 51, 135, 0.83) 100%)',
+        background: 'linear-gradient(to bottom, rgba(90, 151, 255, 0.8) 0%, rgba(0, 51, 135, 0.83) 100%)',
     },
     blindBlind4: {
         position: 'relative',
@@ -49,7 +52,8 @@ const styles = {
         boxSizing: 'border-box',
         borderStyle: 'solid',
         background:
-            'linear-gradient(45deg, rgba(221, 231, 243, 0.7) 0%, rgba(120, 132, 146, 0.7) 52%, rgba(166, 178, 190, 0.7) 68%, rgba(201, 206, 210, 0.7) 100%)',
+///         'linear-gradient(45deg, rgba(221, 231, 243, 0.7) 0%, rgba(120, 132, 146, 0.7) 52%, rgba(166, 178, 190, 0.7) 68%, rgba(201, 206, 210, 0.7) 100%)',
+            'linear-gradient(45deg, rgba(221, 231, 243, 0.3) 0%, rgba(120, 132, 146, 0.3) 52%, rgba(166, 178, 190, 0.3) 68%, rgba(201, 206, 210, 0.3) 100%)',
         transitionProperty: 'transform',
         transitionDuration: '0.3s',
         transformOrigin: '0 100%',
