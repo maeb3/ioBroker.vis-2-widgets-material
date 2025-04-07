@@ -359,11 +359,11 @@ class DialogBlinds extends Component {
 
         const handlerStyle = {
             position: 'absolute',
-///         width: '2em',
-            width: '0em',
+            width: '2em',
             height: '0.3em',
             left: 'calc(50% - 1em)',
-            background: 'white',
+///            background: 'white',
+            background: 'transparent',            
             borderRadius: '0.4em',
         };
 
@@ -372,8 +372,8 @@ class DialogBlinds extends Component {
 ///         handlerStyle.bottom = '0.4em';
             handlerStyle.bottom = '4.4em';
             sliderStyle.backgroundImage =
-             'linear-gradient(0deg, #949494 4.55%, #c9c9c9 4.55%, #c9c9c9 50%, #949494 50%, #949494 54.55%, #c9c9c9 54.55%, #c9c9c9 100%)';
-                'linear-gradient(0deg, #222222 4.55%, #888888 4.55%, #888888 50%, #222222 50%, #888888 54.55%, #888888 54.55%, #888888 100%)';
+///          'linear-gradient(0deg, #949494 4.55%, #c9c9c9 4.55%, #c9c9c9 50%, #949494 50%, #949494 54.55%, #c9c9c9 54.55%, #c9c9c9 100%)';
+             'linear-gradient(0deg, #222222 4.55%, #888888 4.55%, #888888 50%, #222222 50%, #888888 54.55%, #888888 54.55%, #888888 100%)';
             sliderStyle.backgroundSize = '100% 2.5em';
             sliderStyle.backgroundPosition = 'center bottom';
         } else {
