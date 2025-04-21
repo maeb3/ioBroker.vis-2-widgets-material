@@ -42,14 +42,15 @@ const styles = {
         boxSizing: 'border-box',
         background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 51, 135, 0.83) 100%)',
     },
-    blindBlind4: {
+    blindBlind4: {  ///x Glasscheibe
         position: 'relative',
         width: '100%',
         height: '100%',
         boxSizing: 'border-box',
         borderStyle: 'solid',
         background:
-            'linear-gradient(45deg, rgba(221, 231, 243, 0.7) 0%, rgba(120, 132, 146, 0.7) 52%, rgba(166, 178, 190, 0.7) 68%, rgba(201, 206, 210, 0.7) 100%)',
+         ///x    'linear-gradient(45deg, rgba(221, 231, 243, 0.7) 0%, rgba(120, 132, 146, 0.7) 52%, rgba(166, 178, 190, 0.7) 68%, rgba(201, 206, 210, 0.7) 100%)',
+            'transparent',
         transitionProperty: 'transform',
         transitionDuration: '0.3s',
         transformOrigin: '0 100%',
