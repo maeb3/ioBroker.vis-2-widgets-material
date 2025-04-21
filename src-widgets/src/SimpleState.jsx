@@ -30,7 +30,7 @@ const styles = {
         padding: 0,
     },
     buttonInactive: {
-        opacity: 0.6,
+        opacity: 1,  ///x war 0.6
     },
     topButton: {
         display: 'flex',
