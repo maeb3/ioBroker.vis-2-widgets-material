@@ -49,7 +49,8 @@ const styles = {
         boxSizing: 'border-box',
         borderStyle: 'solid',
         background:
-         ///x    'linear-gradient(45deg, rgba(221, 231, 243, 0.7) 0%, rgba(120, 132, 146, 0.7) 52%, rgba(166, 178, 190, 0.7) 68%, rgba(201, 206, 210, 0.7) 100%)',
+         ///x original   'linear-gradient(45deg, rgba(221, 231, 243, 0.7) 0%, rgba(120, 132, 146, 0.7) 52%, rgba(166, 178, 190, 0.7) 68%, rgba(201, 206, 210, 0.7) 100%)',
+         ///x Variante1   'linear-gradient(45deg, rgba(221, 231, 243, 0.3) 0%, rgba(120, 132, 146, 0.3) 52%, rgba(166, 178, 190, 0.3) 68%, rgba(201, 206, 210, 0.3) 100%)',
             'transparent',
         transitionProperty: 'transform',
         transitionDuration: '0.3s',
