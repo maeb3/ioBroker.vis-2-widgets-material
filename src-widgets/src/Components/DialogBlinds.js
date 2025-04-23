@@ -354,10 +354,12 @@ class DialogBlinds extends Component {
 
         const handlerStyle = {
             position: 'absolute',
-            width: '2em',
+            ///x original: width: '2em',
+            width: '8em',
             height: '0.3em',
             left: 'calc(50% - 1em)',
-            background: 'white',
+            ///x orignal:  background: 'white',
+            background: 'red',
             borderRadius: '0.4em',
         };
 
