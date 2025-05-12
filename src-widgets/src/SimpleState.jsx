@@ -529,7 +529,7 @@ class SimpleState extends Generic {
                                         color={
                                             this.state.values[`${this.state.object._id}.val`] === state
                                                 ? 'primary'
-                                                : 'grey'
+                                                : 'green'  ///x was grey
                                         }
                                         onClick={() => this.controlSpecificState(state)}
                                     >
@@ -548,7 +548,7 @@ class SimpleState extends Generic {
                                                 : styles.buttonInactive),
                                             width: '50%',
                                         }}
-                                        color="grey"
+                                        color="orange"  ///x was grey
                                         onClick={() => this.setOnOff(false)}
                                         startIcon={isLamp ? <LightbulbIconOff /> : null}
                                     >
